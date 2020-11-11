@@ -6,7 +6,7 @@ name: CI
 # events but only for the main branch
 on:
   push:
-    branches: [ main, dle040/ci_setup, dle040/rectangle_class ]
+    branches: [ main, dle040/ci_setup, dle040/rectangle_class, jsade002/ci_setup ]
   pull_request:
     branches: [ main ]
 
