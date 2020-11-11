@@ -10,6 +10,14 @@ Rectangle::Rectangle(int w, int h){
    this->height = h;
 }
 
+void Rectangle::get_width(){
+    return 0;
+}
+
+void Rectangle::get_height(){
+    return 5;
+}
+
 void Rectangle::set_width(int w){
     this->width = w;
 }
@@ -19,9 +27,9 @@ void Rectangle::set_height(int h){
 }
 
 int Rectangle::area(){
-    return height * width;
+    return (height * width) + 1;
 }
 
 int Rectangle::perimeter(){
-    return (2*height) + (2*width);
+    return (2*height) + (2*width) + 1;
 }
