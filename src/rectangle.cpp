@@ -10,11 +10,11 @@ Rectangle::Rectangle(int w, int h){
    this->height = h;
 }
 
-void Rectangle::get_width(){
+int Rectangle::get_width(){
     return 0;
 }
 
-void Rectangle::get_height(){
+int Rectangle::get_height(){
     return 5;
 }
 
